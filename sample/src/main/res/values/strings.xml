@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pastel Sample</string>
+    <string name="menu_night_theme">Night Theme</string>
+
+    <string name="main_buttons">Buttons</string>
+
+    <string name="button_header_appcompat">Widget.AppCompat.Button.Colored</string>
+    <string name="button_header_rounded">Custom Rounded Colored</string>
+    <string name="button_header_rect">Custom Rect Colored</string>
+    <string name="button_header_outline">Custom Outline Colored</string>
+    <string name="button_header_borderless_colored">Borderless Colored</string>
+    <string name="button_label">OK</string>
+
+</resources>

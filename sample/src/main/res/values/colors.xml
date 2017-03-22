@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#4CAF50</color>
+    <color name="color_primary_dark">#388E3C</color>
+
+    <color name="color_accent_light">#FF8A80</color>
+    <color name="color_accent">#FF5252</color>
+    <color name="color_accent_dark">#FF1744</color>
+
+    <color name="color_accent_secondary_light">#81B0FF</color>
+    <color name="color_accent_secondary">#448AFF</color>
+    <color name="color_accent_secondary_dark">#0764FF</color>
+
+    <color name="color_control_highlight_pre21">@color/color_accent_dark</color>
+    <color name="color_control_highlight_secondary_pre21">@color/color_accent_secondary_dark</color>
+
+    <color name="color_button_normal_Highlight_pre21">#AEAEAE</color>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pastel_button_stroke_width">1dp</dimen>
+    <dimen name="pastel_button_corner_radius">8dp</dimen>
+    <dimen name="pastel_button_inset_vertical">6dp</dimen>
+    <dimen name="pastel_button_inset_horizontal">4dp</dimen>
+    <dimen name="pastel_button_padding_vertical">4dp</dimen>
+    <dimen name="pastel_button_padding_horizontal">8dp</dimen>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- ColorStateList for Pre L used as the backgroundTint for
+     Normal Button. To achieve same effect on newer versions we
+     introduce colorControlHighlightPre21 to be set in your
+     Application Theme. The value will usually be your
+     darker colorAccent. -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:alpha="?android:attr/disabledAlpha"
+        android:color="?colorButtonNormal"
+        android:state_enabled="false"/>
+
+    <!-- Currently there's no easy way to overlay colorControlHighlight on pre 21
+         So we will need to set it up on our own via attr. -->
+    <item
+        android:color="?pastelColorButtonNormalHighlightPre21"
+        android:state_pressed="true"/>
+    <item
+        android:color="?colorButtonNormal"/>
+</selector>
