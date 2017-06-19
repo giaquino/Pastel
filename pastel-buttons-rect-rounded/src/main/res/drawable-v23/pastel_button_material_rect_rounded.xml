@@ -11,7 +11,7 @@
                 android:shape="rectangle"
                 android:tint="@color/pastel_button_background">
                 <corners
-                    android:radius="@dimen/pastel_button_corner_radius"/>
+                    android:radius="@dimen/pastel_button_rounded_corner_radius"/>
                 <solid
                     android:color="@android:color/white"/>
                 <padding

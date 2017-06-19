@@ -9,7 +9,7 @@
         <solid
             android:color="@android:color/transparent"/>
         <stroke
-            android:width="@dimen/pastel_button_stroke_width"
+            android:width="@dimen/pastel_button_outline_stroke_width"
             android:color="@android:color/white"/>
         <padding
             android:bottom="@dimen/pastel_button_padding_vertical"
