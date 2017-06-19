@@ -19,7 +19,7 @@ def versionMinor = 2
 def versionPatch = 0
 
 ext {
-  supportVersion = "25.3.0"
+  supportVersion = "25.3.1"
 
   minSdkVersion = 9
   compileSdkVersion = 25
