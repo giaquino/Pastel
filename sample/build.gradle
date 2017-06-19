@@ -23,6 +23,9 @@ android {
         sourceCompatibility rootProject.ext.sourceCompatibility
         targetCompatibility rootProject.ext.targetCompatibility
     }
+    lintOptions {
+        abortOnError false
+    }
 }
 
 ext.supportVersion = rootProject.ext.supportVersion
