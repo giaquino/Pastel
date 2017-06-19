@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <inset xmlns:android="http://schemas.android.com/apk/res/android"
-       android:insetBottom="@dimen/pastel_button_inset_vertical"
-       android:insetLeft="@dimen/pastel_button_inset_horizontal"
-       android:insetRight="@dimen/pastel_button_inset_horizontal"
-       android:insetTop="@dimen/pastel_button_inset_vertical">
+    android:insetBottom="@dimen/pastel_button_inset_vertical"
+    android:insetLeft="@dimen/pastel_button_inset_horizontal"
+    android:insetRight="@dimen/pastel_button_inset_horizontal"
+    android:insetTop="@dimen/pastel_button_inset_vertical">
 
-    <ripple android:color="?colorControlHighlight">
-        <item>
-            <shape
-                android:shape="rectangle"
-                android:tint="@color/pastel_button_background_colored">
-                <corners
-                    android:radius="@dimen/pastel_button_rounded_corner_radius"/>
-                <solid
-                    android:color="@android:color/white"/>
-                <padding
-                    android:bottom="@dimen/pastel_button_padding_vertical"
-                    android:left="@dimen/pastel_button_padding_horizontal"
-                    android:right="@dimen/pastel_button_padding_horizontal"
-                    android:top="@dimen/pastel_button_padding_vertical"/>
-            </shape>
-        </item>
-    </ripple>
+  <ripple android:color="?colorControlHighlight">
+    <item>
+      <shape
+          android:shape="rectangle"
+          android:tint="@color/pastel_button_background_colored">
+        <corners
+            android:radius="@dimen/pastel_button_rounded_corner_radius" />
+        <solid
+            android:color="@android:color/white" />
+        <padding
+            android:bottom="@dimen/pastel_button_padding_vertical"
+            android:left="@dimen/pastel_button_padding_horizontal"
+            android:right="@dimen/pastel_button_padding_horizontal"
+            android:top="@dimen/pastel_button_padding_vertical" />
+      </shape>
+    </item>
+  </ripple>
 </inset>

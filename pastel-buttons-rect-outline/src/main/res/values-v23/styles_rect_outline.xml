@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- NoInset -->
+  <!-- NoInset -->
 
-    <style name="Pastel.Button.NoInset.Rect.Outline.Colored" parent="Widget.AppCompat.Button.Colored">
-        <item name="android:stateListAnimator">@null</item>
-        <item name="android:background">@drawable/pastel_button_noinset_rect_outline_colored</item>
-        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored</item>
-    </style>
+  <style name="Pastel.Button.NoInset.Rect.Outline.Colored" parent="Widget.AppCompat.Button.Colored">
+    <item name="android:stateListAnimator">@null</item>
+    <item name="android:background">@drawable/pastel_button_noinset_rect_outline_colored</item>
+    <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored</item>
+  </style>
 
-    <style name="Pastel.Button.NoInset.Rect.Outline.Small.Colored" parent="Widget.AppCompat.Button.Small">
-        <item name="android:stateListAnimator">@null</item>
-        <item name="android:background">@drawable/pastel_button_noinset_rect_outline_colored</item>
-        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored</item>
-    </style>
+  <style name="Pastel.Button.NoInset.Rect.Outline.Small.Colored" parent="Widget.AppCompat.Button.Small">
+    <item name="android:stateListAnimator">@null</item>
+    <item name="android:background">@drawable/pastel_button_noinset_rect_outline_colored</item>
+    <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored</item>
+  </style>
 
-    <!-- Material -->
+  <!-- Material -->
 
-    <style name="Pastel.Button.Material.Rect.Outline.Colored" parent="Widget.AppCompat.Button.Colored">
-        <item name="android:background">@drawable/pastel_button_material_rect_outline_colored</item>
-        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored</item>
-    </style>
+  <style name="Pastel.Button.Material.Rect.Outline.Colored" parent="Widget.AppCompat.Button.Colored">
+    <item name="android:background">@drawable/pastel_button_material_rect_outline_colored</item>
+    <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored</item>
+  </style>
 
-    <style name="Pastel.Button.Material.Rect.Outline.Small.Colored" parent="Widget.AppCompat.Button.Small">
-        <item name="android:background">@drawable/pastel_button_material_rect_outline_colored</item>
-        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored</item>
-    </style>
+  <style name="Pastel.Button.Material.Rect.Outline.Small.Colored" parent="Widget.AppCompat.Button.Small">
+    <item name="android:background">@drawable/pastel_button_material_rect_outline_colored</item>
+    <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored</item>
+  </style>
 </resources>

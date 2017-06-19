@@ -5,10 +5,10 @@
      while M and above it will be use as the tint on the Drawable Resource. -->
 
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:alpha="?android:attr/disabledAlpha"
-        android:color="?colorButtonNormal"
-        android:state_enabled="false"/>
-    <item
-        android:color="?colorButtonNormal"/>
+  <item
+      android:alpha="?android:attr/disabledAlpha"
+      android:color="?colorButtonNormal"
+      android:state_enabled="false" />
+  <item
+      android:color="?colorButtonNormal" />
 </selector>

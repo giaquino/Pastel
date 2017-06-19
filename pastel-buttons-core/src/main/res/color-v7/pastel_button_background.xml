@@ -7,16 +7,16 @@
      darker colorAccent. -->
 
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:alpha="?android:attr/disabledAlpha"
-        android:color="?colorButtonNormal"
-        android:state_enabled="false"/>
+  <item
+      android:alpha="?android:attr/disabledAlpha"
+      android:color="?colorButtonNormal"
+      android:state_enabled="false" />
 
-    <!-- Currently there's no easy way to overlay colorControlHighlight on pre 21
-         So we will need to set it up on our own via attr. -->
-    <item
-        android:color="?pastelColorButtonNormalHighlightPre21"
-        android:state_pressed="true"/>
-    <item
-        android:color="?colorButtonNormal"/>
+  <!-- Currently there's no easy way to overlay colorControlHighlight on pre 21
+       So we will need to set it up on our own via attr. -->
+  <item
+      android:color="?pastelColorButtonNormalHighlightPre21"
+      android:state_pressed="true" />
+  <item
+      android:color="?colorButtonNormal" />
 </selector>
