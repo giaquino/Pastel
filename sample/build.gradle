@@ -1,54 +1,56 @@
 apply plugin: "com.android.application"
 
 android {
-    compileSdkVersion rootProject.ext.compileSdkVersion
-    buildToolsVersion rootProject.ext.buildToolsVersion
+  compileSdkVersion rootProject.ext.compileSdkVersion
+  buildToolsVersion rootProject.ext.buildToolsVersion
 
-    defaultConfig {
-        applicationId "com.giaquino.sample"
-        minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion 25
-        versionName rootProject.ext.versionName
-        versionCode rootProject.ext.versionCode
-        archivesBaseName = "app-${versionName}"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+  defaultConfig {
+    applicationId "com.giaquino.sample"
+    minSdkVersion rootProject.ext.minSdkVersion
+    targetSdkVersion 25
+    versionName rootProject.ext.versionName
+    versionCode rootProject.ext.versionCode
+    archivesBaseName = "app-${versionName}"
+    testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+  }
+  buildTypes {
+    release {
+      minifyEnabled true
+      proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
     }
-    buildTypes {
-        release {
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
-        }
-    }
-    compileOptions {
-        sourceCompatibility rootProject.ext.sourceCompatibility
-        targetCompatibility rootProject.ext.targetCompatibility
-    }
-    lintOptions {
-        abortOnError false
-    }
+  }
+  compileOptions {
+    sourceCompatibility rootProject.ext.sourceCompatibility
+    targetCompatibility rootProject.ext.targetCompatibility
+  }
+  lintOptions {
+    abortOnError false
+  }
 }
 
 ext.supportVersion = rootProject.ext.supportVersion
 
 dependencies {
-    compile project(':pastel-buttons-core')
-    compile project(':pastel-buttons-rect')
-    compile project(':pastel-buttons-rect-outline')
-    compile project(':pastel-buttons-rect-rounded')
+  compile project(':pastel-buttons-core')
+  compile project(':pastel-buttons-rect')
+  compile project(':pastel-buttons-rect-outline')
+  compile project(':pastel-buttons-rect-rounded')
+  compile project(':pastel-buttons-rect-oval')
 
-    compile "com.android.support:appcompat-v7:$supportVersion"
-    compile "com.android.support:design:$supportVersion"
-    compile "com.android.support:support-compat:$supportVersion"
-    compile "com.android.support:support-core-ui:$supportVersion"
-    //compile "com.android.support:support-fragment:$supportVersion"
-    //compile "com.android.support:recyclerview-v7:$supportVersion"
-    //compile "com.android.support:percent:$supportVersion"
-    //compile "com.android.support:customtabs:$supportVersion"
-    //compile "com.android.support:cardview-v7:$supportVersion"
-    //compile "com.android.support:gridlayout-v7:$supportVersion"
-    //compile "com.android.support:palette-v7:$supportVersion"
-    //compile "com.android.support:preference-v7:$supportVersion"
-    //compile "com.android.support:multidex:1.0.1"
-    //compile "com.android.support:mediarouter-v7:$supportVersion"
-    //compile "com.android.support:support-media-compat:$supportVersion"
+
+  compile "com.android.support:appcompat-v7:$supportVersion"
+  //compile "com.android.support:design:$supportVersion"
+  //compile "com.android.support:support-compat:$supportVersion"
+  //compile "com.android.support:support-core-ui:$supportVersion"
+  //compile "com.android.support:support-fragment:$supportVersion"
+  //compile "com.android.support:recyclerview-v7:$supportVersion"
+  //compile "com.android.support:percent:$supportVersion"
+  //compile "com.android.support:customtabs:$supportVersion"
+  //compile "com.android.support:cardview-v7:$supportVersion"
+  //compile "com.android.support:gridlayout-v7:$supportVersion"
+  //compile "com.android.support:palette-v7:$supportVersion"
+  //compile "com.android.support:preference-v7:$supportVersion"
+  //compile "com.android.support:multidex:1.0.1"
+  //compile "com.android.support:mediarouter-v7:$supportVersion"
+  //compile "com.android.support:support-media-compat:$supportVersion"
 }

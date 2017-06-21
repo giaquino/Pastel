@@ -1,17 +1,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="My.Theme" parent="Theme.AppCompat.DayNight.NoActionBar">
-        <item name="colorAccent">@color/color_accent</item>
-        <item name="colorPrimary">@color/color_primary</item>
-        <item name="colorPrimaryDark">@color/color_primary_dark</item>
-        <item name="pastelColorControlHighlightPre21">@color/color_control_highlight_pre21</item>
-        <item name="pastelColorButtonNormalHighlightPre21">@color/color_button_normal_Highlight_pre21</item>
-    </style>
+  <style name="My.Theme" parent="Theme.AppCompat.DayNight.NoActionBar">
+    <item name="colorAccent">@color/color_accent</item>
+    <item name="colorPrimary">@color/color_primary</item>
+    <item name="colorPrimaryDark">@color/color_primary_dark</item>
+    <item name="pastelColorControlHighlightPre21">@color/color_control_highlight_pre21</item>
+    <item name="pastelColorButtonNormalHighlightPre21">@color/color_button_normal_Highlight_pre21</item>
+  </style>
 
-    <style name="My.ThemeOverlay.Theme.SecondaryAccent" parent="ThemeOverlay.AppCompat.Light">
-        <item name="colorAccent">@color/color_accent_secondary</item>
-        <item name="pastelColorControlHighlightPre21">@color/color_control_highlight_secondary_pre21</item>
-        <item name="pastelColorButtonNormalHighlightPre21">@color/color_button_normal_Highlight_pre21</item>
-    </style>
+  <style name="My.ThemeOverlay.Theme.SecondaryAccent" parent="ThemeOverlay.AppCompat.Light">
+    <item name="colorAccent">@color/color_accent_secondary</item>
+    <item name="pastelColorControlHighlightPre21">@color/color_control_highlight_secondary_pre21</item>
+    <item name="pastelColorButtonNormalHighlightPre21">@color/color_button_normal_Highlight_pre21</item>
+  </style>
 
 </resources>
