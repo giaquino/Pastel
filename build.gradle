@@ -11,6 +11,7 @@ buildscript {
 allprojects {
   repositories {
     jcenter()
+    maven { url "https://maven.google.com" }
   }
 }
 
@@ -19,7 +20,7 @@ def versionMinor = 2
 def versionPatch = 0
 
 ext {
-  supportVersion = "25.3.1"
+  supportVersion = "25.4.0"
 
   minSdkVersion = 16
   compileSdkVersion = 25
