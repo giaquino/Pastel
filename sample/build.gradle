@@ -39,9 +39,9 @@ dependencies {
 
 
   compile "com.android.support:appcompat-v7:$supportVersion"
-  //compile "com.android.support:design:$supportVersion"
-  //compile "com.android.support:support-compat:$supportVersion"
-  //compile "com.android.support:support-core-ui:$supportVersion"
+  compile "com.android.support:support-compat:$supportVersion"
+  compile "com.android.support:design:$supportVersion"
+  compile "com.android.support:support-core-ui:$supportVersion"
   //compile "com.android.support:support-fragment:$supportVersion"
   //compile "com.android.support:recyclerview-v7:$supportVersion"
   //compile "com.android.support:percent:$supportVersion"
