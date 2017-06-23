@@ -17,7 +17,7 @@ allprojects {
 
 def versionMajor = 0
 def versionMinor = 2
-def versionPatch = 0
+def versionPatch = 1
 
 ext {
   supportVersion = "25.4.0"
