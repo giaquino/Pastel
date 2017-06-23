@@ -4,28 +4,28 @@
   <!-- NoInset -->
 
   <style name="Pastel.Button.NoInset.Rect" parent="Widget.AppCompat.Button">
-    <item name="backgroundTintMode">src_atop</item>
+    <item name="backgroundTintMode">src_over</item>
     <item name="backgroundTint">@color/pastel_button_background</item>
     <item name="android:background">@drawable/pastel_button_noinset_rect</item>
     <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button</item>
   </style>
 
   <style name="Pastel.Button.NoInset.Rect.Colored" parent="Widget.AppCompat.Button.Colored">
-    <item name="backgroundTintMode">src_atop</item>
+    <item name="backgroundTintMode">src_over</item>
     <item name="backgroundTint">@color/pastel_button_background_colored</item>
     <item name="android:background">@drawable/pastel_button_noinset_rect</item>
     <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Colored</item>
   </style>
 
   <style name="Pastel.Button.NoInset.Rect.Small" parent="Widget.AppCompat.Button.Small">
-    <item name="backgroundTintMode">src_atop</item>
+    <item name="backgroundTintMode">src_over</item>
     <item name="backgroundTint">@color/pastel_button_background</item>
     <item name="android:background">@drawable/pastel_button_noinset_rect</item>
     <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button</item>
   </style>
 
   <style name="Pastel.Button.NoInset.Rect.Small.Colored" parent="Widget.AppCompat.Button.Small">
-    <item name="backgroundTintMode">src_atop</item>
+    <item name="backgroundTintMode">src_over</item>
     <item name="backgroundTint">@color/pastel_button_background_colored</item>
     <item name="android:background">@drawable/pastel_button_noinset_rect</item>
     <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Colored</item>
@@ -34,28 +34,28 @@
   <!-- Material -->
 
   <style name="Pastel.Button.Material.Rect" parent="Widget.AppCompat.Button">
-    <item name="backgroundTintMode">src_atop</item>
+    <item name="backgroundTintMode">src_over</item>
     <item name="backgroundTint">@color/pastel_button_background</item>
     <item name="android:background">@drawable/pastel_button_material_rect</item>
     <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button</item>
   </style>
 
   <style name="Pastel.Button.Material.Rect.Colored" parent="Widget.AppCompat.Button.Colored">
-    <item name="backgroundTintMode">src_atop</item>
+    <item name="backgroundTintMode">src_over</item>
     <item name="backgroundTint">@color/pastel_button_background_colored</item>
     <item name="android:background">@drawable/pastel_button_material_rect</item>
     <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Colored</item>
   </style>
 
   <style name="Pastel.Button.Material.Rect.Small" parent="Widget.AppCompat.Button.Small">
-    <item name="backgroundTintMode">src_atop</item>
+    <item name="backgroundTintMode">src_over</item>
     <item name="backgroundTint">@color/pastel_button_background</item>
     <item name="android:background">@drawable/pastel_button_material_rect</item>
     <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button</item>
   </style>
 
   <style name="Pastel.Button.Material.Rect.Small.Colored" parent="Widget.AppCompat.Button.Small">
-    <item name="backgroundTintMode">src_atop</item>
+    <item name="backgroundTintMode">src_over</item>
     <item name="backgroundTint">@color/pastel_button_background_colored</item>
     <item name="android:background">@drawable/pastel_button_material_rect</item>
     <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Colored</item>

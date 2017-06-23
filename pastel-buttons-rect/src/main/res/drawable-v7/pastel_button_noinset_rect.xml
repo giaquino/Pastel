@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
+
+  <!-- Because we're using backgroundTint we need to set this shape color
+    to transparent so that disabled state will be the same on appcompat when tint is applied
+    on top of this color. -->
+
   <solid
-      android:color="@android:color/white" />
+      android:color="@android:color/transparent" />
   <padding
       android:bottom="@dimen/pastel_button_padding_vertical"
       android:left="@dimen/pastel_button_padding_horizontal"

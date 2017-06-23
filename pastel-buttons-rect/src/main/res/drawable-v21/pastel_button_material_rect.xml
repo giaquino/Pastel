@@ -8,8 +8,13 @@
   <ripple android:color="?colorControlHighlight">
     <item>
       <shape android:shape="rectangle">
+
+        <!-- Because we're using backgroundTint we need to set this shape color
+        to transparent so that disabled state will be the same on appcompat when tint is applied
+        on top of this color. -->
+
         <solid
-            android:color="@android:color/white" />
+            android:color="@android:color/transparent" />
         <padding
             android:bottom="@dimen/pastel_button_padding_vertical"
             android:left="@dimen/pastel_button_padding_horizontal"
