@@ -44,15 +44,15 @@ allprojects {
 
 * Core (Required)
 ```
-compile 'com.github.giaquino.Pastel:pastel-buttons-core:0.2.0-alpha'
+compile 'com.github.giaquino.Pastel:pastel-buttons-core:0.2.1-alpha'
 ```
 
 * Button Styles
 ```
-compile 'com.github.giaquino.Pastel:pastel-buttons-rect:0.2.0-alpha'
-compile 'com.github.giaquino.Pastel:pastel-buttons-rect-outline:0.2.0-alpha'
-compile 'com.github.giaquino.Pastel:pastel-buttons-rect-rounded:0.2.0-alpha'
-compile 'com.github.giaquino.Pastel:pastel-buttons-rect-oval:0.2.0-alpha'
+compile 'com.github.giaquino.Pastel:pastel-buttons-rect:0.2.1-alpha'
+compile 'com.github.giaquino.Pastel:pastel-buttons-rect-outline:0.2.1-alpha'
+compile 'com.github.giaquino.Pastel:pastel-buttons-rect-rounded:0.2.1-alpha'
+compile 'com.github.giaquino.Pastel:pastel-buttons-rect-oval:0.2.1-alpha'
 ```
 
 ## License
