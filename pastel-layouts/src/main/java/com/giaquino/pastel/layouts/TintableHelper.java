@@ -7,9 +7,14 @@ import android.graphics.drawable.Drawable;
 import android.support.v4.graphics.drawable.DrawableCompat;
 import android.support.v4.view.TintableBackgroundView;
 import android.support.v4.view.ViewCompat;
+import android.support.v7.widget.DrawableUtils;
 import android.util.AttributeSet;
 import android.view.View;
 
+/**
+ * Helper class for tinting {@link View}.
+ * The view should implements {@link TintableBackgroundView} and delegate to this class.
+ */
 public class TintableHelper implements TintableBackgroundView {
 
   private PorterDuff.Mode tintMode = PorterDuff.Mode.SRC_IN;
@@ -20,6 +25,9 @@ public class TintableHelper implements TintableBackgroundView {
     this.view = view;
   }
 
+  /**
+   * Load backgroundTint and backgroundTintMode attributes.
+   */
   public void loadFromAttributes(Context context, AttributeSet attrs, int defStyleAttr) {
     TintTypedArray a =
         TintTypedArray.obtainStyledAttributes(context, attrs, R.styleable.TintableHelper,
@@ -71,6 +79,9 @@ public class TintableHelper implements TintableBackgroundView {
     ViewCompat.setBackground(view, background);
   }
 
+  /**
+   * Copied from appcompat {@link DrawableUtils}
+   */
   private PorterDuff.Mode parseTintMode(int value, PorterDuff.Mode defaultMode) {
     switch (value) {
       case 3:
