@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:padding="@dimen/activity_vertical_padding">
+
+    <com.giaquino.pastel.layouts.TintableLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        style="@style/Pastel.Button.Material.Rect.Colored">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="@string/layout_linear_layout" />
+    </com.giaquino.pastel.layouts.TintableLinearLayout>
+
+    <com.giaquino.pastel.layouts.TintableFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        style="@style/Pastel.Button.Material.Rect.Rounded.Colored">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="@string/layout_frame_layout" />
+    </com.giaquino.pastel.layouts.TintableFrameLayout>
+
+    <com.giaquino.pastel.layouts.TintableRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        style="@style/Pastel.Button.Material.Rect.Oval.Colored">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="@string/layout_relative_layout" />
+    </com.giaquino.pastel.layouts.TintableRelativeLayout>
+
+    <com.giaquino.pastel.layouts.TintableLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        style="@style/Pastel.Button.Material.Rect.Outline.Colored">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="@string/layout_linear_layout" />
+    </com.giaquino.pastel.layouts.TintableLinearLayout>
+
+
+    <com.giaquino.pastel.layouts.TintableLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:theme="@style/My.ThemeOverlay.Theme.SecondaryAccent"
+        style="@style/Pastel.Button.Material.Rect.Colored">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="@string/layout_linear_layout" />
+    </com.giaquino.pastel.layouts.TintableLinearLayout>
+
+    <com.giaquino.pastel.layouts.TintableFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:theme="@style/My.ThemeOverlay.Theme.SecondaryAccent"
+        style="@style/Pastel.Button.Material.Rect.Rounded.Colored">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="@string/layout_frame_layout" />
+    </com.giaquino.pastel.layouts.TintableFrameLayout>
+
+    <com.giaquino.pastel.layouts.TintableRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:theme="@style/My.ThemeOverlay.Theme.SecondaryAccent"
+        style="@style/Pastel.Button.Material.Rect.Oval.Colored">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="@string/layout_relative_layout" />
+    </com.giaquino.pastel.layouts.TintableRelativeLayout>
+
+    <com.giaquino.pastel.layouts.TintableLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:theme="@style/My.ThemeOverlay.Theme.SecondaryAccent"
+        style="@style/Pastel.Button.Material.Rect.Outline.Colored">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="@string/layout_linear_layout" />
+    </com.giaquino.pastel.layouts.TintableLinearLayout>
+  </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

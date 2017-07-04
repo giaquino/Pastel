@@ -1,0 +1,29 @@
+apply plugin: "com.android.library"
+
+group = GROUP
+
+android {
+  compileSdkVersion rootProject.ext.compileSdkVersion
+  buildToolsVersion rootProject.ext.buildToolsVersion
+
+  defaultConfig {
+    minSdkVersion rootProject.ext.minSdkVersion
+    versionName rootProject.ext.versionName
+    versionCode rootProject.ext.versionCode
+  }
+  compileOptions {
+    sourceCompatibility rootProject.ext.sourceCompatibility
+    targetCompatibility rootProject.ext.targetCompatibility
+  }
+}
+
+dependencies {
+  compile("com.android.support:support-compat:$supportVersion") {
+    transitive false
+  }
+  compile("com.android.support:appcompat-v7:$rootProject.ext.supportVersion") {
+    transitive false
+  }
+}
+
+apply from: rootProject.file("gradle/javadoc.gradle")

@@ -1,0 +1,14 @@
+package com.giaquino.sample.ui;
+
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import com.giaquino.sample.R;
+import com.giaquino.sample.common.app.BaseActivity;
+
+public class LayoutActivity extends BaseActivity {
+
+  @Override protected void onCreate(@Nullable Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.layout_activity);
+  }
+}

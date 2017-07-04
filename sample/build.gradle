@@ -36,6 +36,7 @@ dependencies {
   compile project(':pastel-buttons-rect-outline')
   compile project(':pastel-buttons-rect-rounded')
   compile project(':pastel-buttons-rect-oval')
+  compile project(':pastel-layouts')
 
 
   compile "com.android.support:appcompat-v7:$supportVersion"

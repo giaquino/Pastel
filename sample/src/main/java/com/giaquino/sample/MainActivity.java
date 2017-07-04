@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import com.giaquino.sample.common.app.BaseActivity;
 import com.giaquino.sample.ui.ButtonActivity;
+import com.giaquino.sample.ui.LayoutActivity;
 
 public class MainActivity extends BaseActivity {
 
@@ -18,6 +19,12 @@ public class MainActivity extends BaseActivity {
     buttons.setOnClickListener(new View.OnClickListener() {
       @Override public void onClick(View v) {
         startActivity(new Intent(MainActivity.this, ButtonActivity.class));
+      }
+    });
+    Button layouts = (Button) findViewById(R.id.main_layouts);
+    layouts.setOnClickListener(new View.OnClickListener() {
+      @Override public void onClick(View v) {
+        startActivity(new Intent(MainActivity.this, LayoutActivity.class));
       }
     });
   }

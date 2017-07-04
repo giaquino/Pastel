@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<android.support.v4.widget.NestedScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="wrap_content">
 
-  <android.support.v4.widget.NestedScrollView
+  <LinearLayout
       android:layout_width="match_parent"
-      android:layout_height="wrap_content">
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:padding="@dimen/activity_vertical_padding">
 
-    <LinearLayout
+    <Button
+        android:id="@+id/main_buttons"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="@dimen/activity_vertical_padding">
+        android:text="@string/main_buttons"
+        style="@style/Pastel.Button.Material.Rect.Colored" />
 
-      <Button
-          android:id="@+id/main_buttons"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:text="@string/main_buttons"
-          style="@style/Pastel.Button.Material.Rect.Colored" />
-
-    </LinearLayout>
-  </android.support.v4.widget.NestedScrollView>
-</LinearLayout>
+    <Button
+        android:id="@+id/main_layouts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_layouts"
+        style="@style/Pastel.Button.Material.Rect.Colored" />
+  </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

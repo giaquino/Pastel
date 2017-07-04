@@ -3,6 +3,7 @@
   <string name="menu_night_theme">Night Theme</string>
 
   <string name="main_buttons">Buttons</string>
+  <string name="main_layouts">Layouts</string>
 
   <string name="button_header_appcompat">Widget.AppCompat.Button.Colored</string>
   <string name="button_header_rect">Button Rect</string>
@@ -10,5 +11,9 @@
   <string name="button_header_outline">Button Rect Outline</string>
   <string name="button_header_oval">Button Rect Oval</string>
   <string name="button_label">OK</string>
+
+  <string name="layout_linear_layout">LinearLayout</string>
+  <string name="layout_frame_layout">FrameLayout</string>
+  <string name="layout_relative_layout">RelativeLayout</string>
 
 </resources>
