@@ -1,6 +1,11 @@
 Change Log
 ==========
 
+Version 0.2.3-alpha *(2017-07-05)*
+----------------------------
+
+  * Fix: Wrong tint mode on rect-rounded-small-colored
+
 Version 0.2.2-alpha *(2017-07-04)*
 ----------------------------
 
