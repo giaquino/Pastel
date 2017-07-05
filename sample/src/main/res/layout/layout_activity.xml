@@ -19,7 +19,8 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_gravity="center"
-          android:text="@string/layout_linear_layout" />
+          android:text="@string/layout_linear_layout"
+          android:textColor="@android:color/white" />
     </com.giaquino.pastel.layouts.TintableLinearLayout>
 
     <com.giaquino.pastel.layouts.TintableFrameLayout
@@ -31,7 +32,8 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_gravity="center"
-          android:text="@string/layout_frame_layout" />
+          android:text="@string/layout_frame_layout"
+          android:textColor="@android:color/white" />
     </com.giaquino.pastel.layouts.TintableFrameLayout>
 
     <com.giaquino.pastel.layouts.TintableRelativeLayout
@@ -43,7 +45,8 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_gravity="center"
-          android:text="@string/layout_relative_layout" />
+          android:text="@string/layout_relative_layout"
+          android:textColor="@android:color/white" />
     </com.giaquino.pastel.layouts.TintableRelativeLayout>
 
     <com.giaquino.pastel.layouts.TintableLinearLayout
@@ -55,7 +58,8 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_gravity="center"
-          android:text="@string/layout_linear_layout" />
+          android:text="@string/layout_linear_layout"
+          android:textColor="?colorAccent" />
     </com.giaquino.pastel.layouts.TintableLinearLayout>
 
 
@@ -69,7 +73,8 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_gravity="center"
-          android:text="@string/layout_linear_layout" />
+          android:text="@string/layout_linear_layout"
+          android:textColor="@android:color/white" />
     </com.giaquino.pastel.layouts.TintableLinearLayout>
 
     <com.giaquino.pastel.layouts.TintableFrameLayout
@@ -82,7 +87,8 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_gravity="center"
-          android:text="@string/layout_frame_layout" />
+          android:text="@string/layout_frame_layout"
+          android:textColor="@android:color/white" />
     </com.giaquino.pastel.layouts.TintableFrameLayout>
 
     <com.giaquino.pastel.layouts.TintableRelativeLayout
@@ -95,7 +101,8 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_gravity="center"
-          android:text="@string/layout_relative_layout" />
+          android:text="@string/layout_relative_layout"
+          android:textColor="@android:color/white" />
     </com.giaquino.pastel.layouts.TintableRelativeLayout>
 
     <com.giaquino.pastel.layouts.TintableLinearLayout
@@ -108,7 +115,9 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_gravity="center"
-          android:text="@string/layout_linear_layout" />
+          android:text="@string/layout_linear_layout"
+          android:textColor="?colorAccent"
+          android:theme="@style/My.ThemeOverlay.Theme.SecondaryAccent" />
     </com.giaquino.pastel.layouts.TintableLinearLayout>
   </LinearLayout>
 </android.support.v4.widget.NestedScrollView>
