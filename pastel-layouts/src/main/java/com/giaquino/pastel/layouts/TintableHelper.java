@@ -13,7 +13,7 @@ import android.view.View;
 
 /**
  * Helper class for tinting {@link View}.
- * The view should implements {@link TintableBackgroundView} and delegate to this class.
+ * The view should implements TintableBackgroundView and delegate to this class.
  */
 public class TintableHelper implements TintableBackgroundView {
 
