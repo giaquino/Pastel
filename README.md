@@ -49,10 +49,16 @@ compile 'com.github.giaquino.Pastel:pastel-buttons-core:0.2.1-alpha'
 
 * Button Styles
 ```
-compile 'com.github.giaquino.Pastel:pastel-buttons-rect:0.2.1-alpha'
-compile 'com.github.giaquino.Pastel:pastel-buttons-rect-outline:0.2.1-alpha'
-compile 'com.github.giaquino.Pastel:pastel-buttons-rect-rounded:0.2.1-alpha'
-compile 'com.github.giaquino.Pastel:pastel-buttons-rect-oval:0.2.1-alpha'
+compile 'com.github.giaquino.Pastel:pastel-buttons-rect:0.2.4-alpha'
+compile 'com.github.giaquino.Pastel:pastel-buttons-rect-outline:0.2.4-alpha'
+compile 'com.github.giaquino.Pastel:pastel-buttons-rect-rounded:0.2.4-alpha'
+compile 'com.github.giaquino.Pastel:pastel-buttons-rect-rounded-outline:0.2.4-alpha'
+compile 'com.github.giaquino.Pastel:pastel-buttons-rect-oval:0.2.4-alpha'
+```
+
+* Tintable Layouts (Experimental)
+```
+compile 'com.github.giaquino.Pastel:pastel-layouts:0.2.4-alpha'
 ```
 
 ## License
