@@ -18,8 +18,10 @@ android {
 }
 
 dependencies {
-  compile "com.android.support:support-compat:$supportVersion"
-  compile "com.android.support:appcompat-v7:$rootProject.ext.supportVersion"
+  compile project(':pastel-buttons-core')
+  compile("com.android.support:appcompat-v7:$rootProject.ext.supportVersion") {
+    transitive false
+  }
 }
 
 apply from: rootProject.file("gradle/javadoc.gradle")

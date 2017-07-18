@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="pastel_button_rect_rounded_outline_stroke_width">1dp</dimen>
+  <dimen name="pastel_button_rect_rounded_outline_radius">8dp</dimen>
+</resources>

@@ -52,7 +52,7 @@
         style="@style/Widget.AppCompat.Button.Colored" />
 
 
-    <!-- Button Rect Default-->
+    <!-- Button Rect No Inset -->
 
     <TextView
         android:layout_width="wrap_content"
@@ -100,7 +100,7 @@
         android:text="@string/button_label"
         style="@style/Pastel.Button.NoInset.Rect.Colored" />
 
-    <!-- Button Rect Colored -->
+    <!-- Button Rect Material -->
 
     <Button
         android:layout_width="wrap_content"
@@ -140,7 +140,7 @@
         android:text="@string/button_label"
         style="@style/Pastel.Button.Material.Rect.Colored" />
 
-    <!-- Button Rect Rounded Default -->
+    <!-- Button Rect Rounded No Inset -->
 
     <TextView
         android:layout_width="wrap_content"
@@ -188,7 +188,7 @@
         android:text="@string/button_label"
         style="@style/Pastel.Button.NoInset.Rect.Rounded.Colored" />
 
-    <!-- Button Rect Rounded Colored -->
+    <!-- Button Rect Rounded Material -->
 
     <Button
         android:layout_width="wrap_content"
@@ -228,7 +228,71 @@
         android:text="@string/button_label"
         style="@style/Pastel.Button.Material.Rect.Rounded.Colored" />
 
-    <!-- Button Rect Rounded Default -->
+    <!-- Button Rect Outline Rounded No Inset -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/button_header_outline"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label"
+        style="@style/Pastel.Button.NoInset.Rect.Rounded.Outline.Small.Colored" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label"
+        style="@style/Pastel.Button.NoInset.Rect.Rounded.Outline.Colored" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label"
+        android:theme="@style/My.ThemeOverlay.Theme.SecondaryAccent"
+        style="@style/Pastel.Button.NoInset.Rect.Rounded.Outline.Colored" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="@string/button_label"
+        style="@style/Pastel.Button.NoInset.Rect.Rounded.Outline.Colored" />
+
+    <!-- Button Rect Rounded Outline Material -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label"
+        style="@style/Pastel.Button.Material.Rect.Rounded.Outline.Small.Colored" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label"
+        style="@style/Pastel.Button.Material.Rect.Rounded.Outline.Colored" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label"
+        android:theme="@style/My.ThemeOverlay.Theme.SecondaryAccent"
+        style="@style/Pastel.Button.Material.Rect.Rounded.Outline.Colored" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="@string/button_label"
+        style="@style/Pastel.Button.Material.Rect.Rounded.Outline.Colored" />
+
+    <!-- Button Rect Oval No Inset -->
 
     <TextView
         android:layout_width="wrap_content"
@@ -276,7 +340,7 @@
         android:text="@string/button_label"
         style="@style/Pastel.Button.NoInset.Rect.Oval.Colored" />
 
-    <!-- Button Rect Rounded Colored -->
+    <!-- Button Rect Oval Material -->
 
     <Button
         android:layout_width="wrap_content"
@@ -316,7 +380,7 @@
         android:text="@string/button_label"
         style="@style/Pastel.Button.Material.Rect.Oval.Colored" />
 
-    <!-- Button Rect Outline Default -->
+    <!-- Button Rect Outline No Inset -->
 
     <TextView
         android:layout_width="wrap_content"

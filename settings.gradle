@@ -1,3 +1,4 @@
 include ':sample', ':pastel-buttons-core', ':pastel-buttons-rect', ':pastel-buttons-rect-rounded',
+    ':pastel-buttons-rect-rounded-outline',
     ':pastel-layouts',
     ':pastel-buttons-rect-outline', ':pastel-buttons-rect-oval'
