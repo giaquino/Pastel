@@ -1,6 +1,11 @@
 Change Log
 ==========
 
+Version 0.2.5-alpha *(2017-10-20)*
+----------------------------
+
+  * New: Rounded Rect Oval Outline Button Style
+
 Version 0.2.4-alpha *(2017-07-18)*
 ----------------------------
 
