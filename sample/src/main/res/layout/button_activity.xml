@@ -140,6 +140,70 @@
         android:text="@string/button_label"
         style="@style/Pastel.Button.Material.Rect.Colored" />
 
+    <!-- Button Rect Outline No Inset -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/button_header_rect_outline"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label"
+        style="@style/Pastel.Button.NoInset.Rect.Outline.Small.Colored" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label"
+        style="@style/Pastel.Button.NoInset.Rect.Outline.Colored" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label"
+        android:theme="@style/My.ThemeOverlay.Theme.SecondaryAccent"
+        style="@style/Pastel.Button.NoInset.Rect.Outline.Colored" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="@string/button_label"
+        style="@style/Pastel.Button.NoInset.Rect.Outline.Colored" />
+
+    <!-- Button Rect Outline Material -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label"
+        style="@style/Pastel.Button.Material.Rect.Outline.Small.Colored" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label"
+        style="@style/Pastel.Button.Material.Rect.Outline.Colored" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label"
+        android:theme="@style/My.ThemeOverlay.Theme.SecondaryAccent"
+        style="@style/Pastel.Button.Material.Rect.Outline.Colored" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="@string/button_label"
+        style="@style/Pastel.Button.Material.Rect.Outline.Colored" />
+
     <!-- Button Rect Rounded No Inset -->
 
     <TextView
@@ -147,7 +211,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:text="@string/button_header_rounded"
+        android:text="@string/button_header_rect_rounded"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
     <Button
@@ -235,7 +299,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:text="@string/button_header_outline"
+        android:text="@string/button_header_rect_rounded_outline"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
     <Button
@@ -299,7 +363,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:text="@string/button_header_oval"
+        android:text="@string/button_header_rect_oval"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
     <Button
@@ -380,68 +444,69 @@
         android:text="@string/button_label"
         style="@style/Pastel.Button.Material.Rect.Oval.Colored" />
 
-    <!-- Button Rect Outline No Inset -->
+    <!-- Button Rect Oval Outline No Inset -->
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:text="@string/button_header_outline"
+        android:text="@string/button_header_rect_oval_outline"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_label"
-        style="@style/Pastel.Button.NoInset.Rect.Outline.Small.Colored" />
+        style="@style/Pastel.Button.NoInset.Rect.Oval.Outline.Small.Colored" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_label"
-        style="@style/Pastel.Button.NoInset.Rect.Outline.Colored" />
+        style="@style/Pastel.Button.NoInset.Rect.Oval.Outline.Colored" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_label"
         android:theme="@style/My.ThemeOverlay.Theme.SecondaryAccent"
-        style="@style/Pastel.Button.NoInset.Rect.Outline.Colored" />
+        style="@style/Pastel.Button.NoInset.Rect.Oval.Outline.Colored" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:enabled="false"
         android:text="@string/button_label"
-        style="@style/Pastel.Button.NoInset.Rect.Outline.Colored" />
+        style="@style/Pastel.Button.NoInset.Rect.Oval.Outline.Colored" />
 
-    <!-- Button Rect Outline Colored -->
+    <!-- Button Rect Oval Outline Material -->
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_label"
-        style="@style/Pastel.Button.Material.Rect.Outline.Small.Colored" />
+        style="@style/Pastel.Button.Material.Rect.Oval.Outline.Small.Colored" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_label"
-        style="@style/Pastel.Button.Material.Rect.Outline.Colored" />
+        style="@style/Pastel.Button.Material.Rect.Oval.Outline.Colored" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_label"
         android:theme="@style/My.ThemeOverlay.Theme.SecondaryAccent"
-        style="@style/Pastel.Button.Material.Rect.Outline.Colored" />
+        style="@style/Pastel.Button.Material.Rect.Oval.Outline.Colored" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:enabled="false"
         android:text="@string/button_label"
-        style="@style/Pastel.Button.Material.Rect.Outline.Colored" />
+        style="@style/Pastel.Button.Material.Rect.Oval.Outline.Colored" />
+
   </LinearLayout>
 </android.support.v4.widget.NestedScrollView>

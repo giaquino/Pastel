@@ -7,9 +7,11 @@
 
   <string name="button_header_appcompat">Widget.AppCompat.Button.Colored</string>
   <string name="button_header_rect">Button Rect</string>
-  <string name="button_header_rounded">Button Rect Rounded</string>
-  <string name="button_header_outline">Button Rect Outline</string>
-  <string name="button_header_oval">Button Rect Oval</string>
+  <string name="button_header_rect_outline">Button Rect Outline</string>
+  <string name="button_header_rect_rounded">Button Rect Rounded</string>
+  <string name="button_header_rect_rounded_outline">Button Rect Rounded Outline</string>
+  <string name="button_header_rect_oval">Button Rect Oval</string>
+  <string name="button_header_rect_oval_outline">Button Rect Oval Outline</string>
   <string name="button_label">OK</string>
 
   <string name="layout_linear_layout">LinearLayout</string>
